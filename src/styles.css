@@ -1,0 +1,80 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.imgstyle {
+  border-radius: 50px;
+  width: 100px;
+}
+.YTtypeswrppr {
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 40%;
+  margin: auto;
+  height: 50px;
+  text-align: center;
+  background-color: black;
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.09), 0 10px 10px rgba(0, 0, 0, 0.09);
+}
+.typestyle {
+  color: white;
+  text-align: center;
+  padding: 15px;
+  border-radius: 20px;
+}
+.typestyle:hover {
+  color: black;
+  background: linear-gradient(225deg, #c3cfdc, #e8f6ff);
+  box-shadow: -35px 35px 69px #bfcad7, 35px -35px 69px #f3ffff;
+}
+
+.listdiv {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  /* width: 80%; */
+  padding: 0.5px 20px;
+  margin: 15px auto;
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.09), 0 10px 10px rgba(0, 0, 0, 0.09);
+  border-radius: 10px;
+}
+.listdiv:hover {
+  border: 3px solid black;
+}
+.channellistdiv {
+  margin: 30px auto;
+  width: 40%;
+}
+/* footer */
+.footer {
+  height: 100px;
+  background-color: black;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.footerlinks a {
+  text-decoration: none;
+  margin: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+}
+
+/*responsive */
+@media (max-width: 850px) {
+  .channellistdiv {
+    width: 80%;
+  }
+  .YTtypeswrppr {
+    width: 80%;
+  }
+}
